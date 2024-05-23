@@ -23,11 +23,11 @@ Large: 1.8
 
 --- 02 COLORS
 
-- Primary: #e67e22
-- Tints: #fdf2e9, #fae5d3,#eb984e
-- Shades: #cf711f, #45260a
+- Primary: #1f883d
+- Tints: #add7ac, #7ebd87,#4ea362
+- Shades: #196b30, #0d3116
 - Accents:
-- Greys: #888,#767676 (lightest grey allowed on white),#555, #333, #6f6f6f (lightest grey allowed on #fdf2e9)
+- Greys: #888,#767676 (lightest grey allowed on white),#555, #333, #6f6f6f (lightest grey allowed on #add7ac)
 
 --- 05 SHADOWS
 
@@ -148,7 +148,7 @@ body {
   display: block;
   font-size: 1.6rem;
   font-weight: 500;
-  color: #cf711f;
+  color: #196b30;
   text-transform: uppercase;
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
@@ -176,13 +176,13 @@ body {
 
 .btn--full:link,
 .btn--full:visited {
-  background-color: #e67e22;
+  background-color: #1f883d;
   color: #fff;
 }
 
 .btn--full:hover,
 .btn--full:active {
-  background-color: #cf711f;
+  background-color: #196b30;
   color: #fff;
 }
 
@@ -194,15 +194,15 @@ body {
 
 .btn--outline:hover,
 .btn--outline:active {
-  background-color: #fdf2e9;
+  background-color: #add7ac;
   /* border: 3px solid #fff; */
   /* TRICK to add border inside */
   box-shadow: inset 0 0 0 3px #fff;
 }
 
 .btn--form {
-  background-color: #45260a;
-  color: #fdf2e9;
+  background-color: #0d3116;
+  color: #add7ac;
   align-self: end;
   padding: 1.2rem;
 }
@@ -215,7 +215,7 @@ body {
 .link:link,
 .link:visited {
   display: inline-block;
-  color: #e67e22;
+  color: #1f883d;
   text-decoration: none;
   border-bottom: 1px solid currentColor;
   padding-bottom: 2px;
@@ -224,7 +224,7 @@ body {
 
 .link:hover,
 .link:active {
-  color: #cf711f;
+  color: #196b30;
   border-bottom: 1px solid transparent;
 }
 
@@ -246,14 +246,14 @@ body {
 .list-icon {
   width: 3rem;
   height: 3rem;
-  color: #e67e22;
+  color: #1f883d;
 }
 
 *:focus {
   outline: none;
-  /* outline: 4px dotted #e67e22;
+  /* outline: 4px dotted #1f883d;
   outline-offset: 8px; */
-  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+  box-shadow: 0 0 0 0.8rem rgba(34, 230, 125, 0.5);
 }
 
 /* HELPER/SETTINGS CLASSES */
